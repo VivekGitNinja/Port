@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-v"></i>
+                    <div class="logo-text">Vivek Kumar Verma</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="images/vivek.jpg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Web Developer</span></h5>
+                    <h1>VIVEK KUMAR VERMA</h1>
+                    <p>I'm a B.Tech CSE student passionate about web development. I'm proficient in HTML, CSS, and Python, with a keen interest in front-end development. I'm eager to learn and contribute to projects that create engaging online experiences.
+                        My goal is to become a skilled and versatile web developer, building innovative and user-friendly websites. Let's connect and build something amazing together!</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn active">Download CV</a>
+                        <a href="#" class="btn">Contact</a>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/vivke.verma.98"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/vivekumarverma"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/invites/contact"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="skills" class="skills">
+        <div class="wrapper">
+            <h2>Skills</h2>
+            <div class="skill-list">
+                <div class="skill diamond">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill diamond">
+                    <i class="fa-solid fa-paint-brush"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill diamond">
+                    <i class="fa-solid fa-code-branch"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill diamond">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill diamond">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>React</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="wrapper">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Portfolio Website</h3>
+                    <p>Developed a personal portfolio website using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+                </div>
+                <div class="project">
+                    <h3>Landing Page</h3>
+                    <p>Created a responsive landing page using HTML, CSS, and JavaScript to promote a fictional product.</p>
+                </div>
+                <div class="project">
+                    <h3>E-commerce Website</h3>
+                    <p>Designed and implemented an e-commerce website with user authentication, product listings, and a shopping cart using React and Firebase.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+        <div class="wrapper">
+            <h2>Achievements & Certifications</h2>
+            <div class="achievement-list">
+                <div class="achievement">
+                    <i class="fa-solid fa-trophy"></i>
+                    <h3>Top Performer in Microsoft Odyssey AI Skill Challenge</h3>
+                    <p>Completed Level 1 of the Microsoft Odyssey AI Skill Challenge with excellent results.</p>
+                </div>
+                <div class="achievement">
+                    <i class="fa-solid fa-certificate"></i>
+                    <h3>Web Development Intern at MotionCut</h3>
+                    <p>Received an internship offer for the position of Web Development Intern, where I gained hands-on experience in web development.</p>
+                </div>
+                <div class="achievement">
+                    <i class="fa-solid fa-medal"></i>
+                    <h3>Successful Completion of CodSoft Internship</h3>
+                    <p>Completed a web development internship with CodSoft, focusing on creating a personal portfolio, landing page, and basic calculator.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="wrapper">
+            <h2>Contact</h2>
+            <form action="submit_form.php" method="post">
+                <h3>Get in Touch</h3>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrapper">
+            <p>&copy; 2024 Vivek Kumar Verma. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+
+        togglebtn.addEventListener("click", function() {
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        });
+
+        var typed = new Typed(".input", {
+            strings: ["Frontend Developer", "Web Developer"],
+            typedSpeed: 70,
+            backSpeed: 85,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
